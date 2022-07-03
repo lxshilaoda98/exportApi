@@ -1,0 +1,12 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /export/icrm              --> exportApi/servives.ExportIcrm (4 handlers)
+[GIN] 2022/07/02 - 14:16:25 | 200 |       508.4µs |       127.0.0.1 | POST     "/export/icrm"
+[GIN] 2022/07/02 - 14:16:26 | 200 |        61.6µs |       127.0.0.1 | POST     "/export/icrm"
+[GIN] 2022/07/02 - 14:16:26 | 200 |      1.0028ms |       127.0.0.1 | POST     "/export/icrm"
+[GIN] 2022/07/02 - 14:16:27 | 200 |            0s |       127.0.0.1 | POST     "/export/icrm"
+[GIN] 2022/07/02 - 14:16:28 | 200 |      1.0017ms |       127.0.0.1 | POST     "/export/icrm"

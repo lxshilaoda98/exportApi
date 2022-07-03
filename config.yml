@@ -1,0 +1,14 @@
+ginport: ":7722"
+exportfile: "./upload/"
+ormcrm:
+  driver: mysql
+  path: 39.97.233.230
+  port: 3300
+  config: charset=utf8mb4&parseTime=True&loc=Local
+  db-name: freeswitch
+  username: root
+  password: 2krUCTwtENQCJDaL
+  max-idle-conns: 10
+  max-open-conns: 10
+  log-mode: ""
+  log-zap: false
